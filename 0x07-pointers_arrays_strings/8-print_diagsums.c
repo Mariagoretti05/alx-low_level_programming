@@ -25,3 +25,4 @@ void print_diagsums(int *a, int size)
 		i = (row * size) - row;
 		diagonal_sum_2 += a[i];
 	}
+}	
