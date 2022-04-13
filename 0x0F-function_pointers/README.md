@@ -1,7 +1,10 @@
-STRUCTURES,,typedef
+         FUNCTION POINTERS
 
-      Requirements
-Language: C OS: Ubuntu 20.04 LTS Compiler: gcc 11.2.0 Style guidelines: Betty style
+      REQUIREMENTS
+
+Language: C OS: Ubuntu 20.04 LTS Compiler
+        : gcc 11.2.0 Style guidelines
+        : Betty style
 
    Description of each file:
 
