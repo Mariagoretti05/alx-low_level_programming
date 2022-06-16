@@ -1,17 +1,13 @@
-             0x17. C - Dynamic libraries
-       Table of contents
-
-
-Files                        	Description
-
-libholberton.so	        -   dynamic library containing the function definitions
-
-main.h                  -	Header files containing the function prototypes
-
-1-create_dynamic_lib.sh -	Bash script that creates a dynamic library called liball.so from all the .c files that are in the current directory
-
-100-operations.so       -	C dynamic library that contains C functions that can be called from Python
-
-libmask.so	        - C dynamic library to inject in a giga million program
-
-101-make_me_win.sh      -  	Bash script to inject the libmask.so library, using LD_PRELOAD, in the giga million program
+C DYNAMIC LIBRARIES
+Requirements
+Language: C
+OS: Ubuntu 14.04 LTS
+Compiler: gcc 4.8.4
+Style guidelines: [Betty style] (https://github.com/holbertonschool/Betty/wiki)
+Description of important files:
+create_dynamic_lib.sh - shell script to create dynamic library named liball.so
+libholberton.so - created this dynamic library containing some functions as liball.so
+functions_folder - all .c files hold functions; all .o files were used to create dynamic library
+main.h - included function prototypes of functions in library
+len - executable program to run 0-main.c
+100-operations.so - created this C dynamic library to be imported into python program 100-tests.py
